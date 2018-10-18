@@ -15,18 +15,18 @@ namespace facturacion
             string sql;
             DataTable dt = new DataTable();
             conexionbd.datos consulta = new conexionbd.datos();
-            sql = "SELECT idempleado,docmnt_empld from empleados";
+            sql = "SELECT * from USO_LIBRE_NVO";
             dt = consulta.tabla(sql);
             return dt;
         }
 
-        public void insertar(double id,string documento)
+        public void insertar(int id,string user, string password)
         {
             string sql;
-            sql = "INSERT INTO empleados ";
-            sql = sql + " (idempleado,docmnt_empld) ";
+            sql = "INSERT INTO loggin ";
+            sql = sql + " (ID,USR, PASS) ";
             sql = sql + " VALUES ";
-            sql = sql + " (" + id + ",'" + documento + "')";
+            sql = sql + " (" + id + ",'" + user + "','"+password+"')";
             conexionbd.datos consulta = new conexionbd.datos();
             consulta.Ejecutar(sql);
         }

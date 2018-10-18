@@ -34,14 +34,14 @@ namespace proyecto_ejemplo
         private void btngrabar_Click(object sender, EventArgs e)
         {
             facturacion.productos datos = new facturacion.productos();
-            datos.insertar(Convert.ToDouble(txtid.Text), txtdocumento.Text);
+            datos.insertar(Convert.ToInt32(txtid.Text), txtUsuario.Text, txtPass.Text);
             Loadgrilla();
             limpiacampos();
             MessageBox.Show("Se grabó con exito");
         }
         private void limpiacampos()
         {
-            txtdocumento.Text = "";
+            txtUsuario.Text = "";
             txtid.Text = "";
             txtid.Focus();
         }
