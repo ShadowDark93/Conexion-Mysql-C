@@ -35,8 +35,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.txtCuenta = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.btnCrearMotel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -103,23 +101,6 @@
             this.txtDireccion.Size = new System.Drawing.Size(254, 20);
             this.txtDireccion.TabIndex = 6;
             // 
-            // txtCuenta
-            // 
-            this.txtCuenta.Location = new System.Drawing.Point(52, 291);
-            this.txtCuenta.Name = "txtCuenta";
-            this.txtCuenta.Size = new System.Drawing.Size(254, 20);
-            this.txtCuenta.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(48, 267);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 21);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Cuenta";
-            // 
             // btnCrearMotel
             // 
             this.btnCrearMotel.Location = new System.Drawing.Point(52, 335);
@@ -136,8 +117,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(430, 450);
             this.Controls.Add(this.btnCrearMotel);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtCuenta);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -146,7 +125,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNombre);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "moter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -162,8 +141,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtDireccion;
-        private System.Windows.Forms.TextBox txtCuenta;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnCrearMotel;
     }
 }
