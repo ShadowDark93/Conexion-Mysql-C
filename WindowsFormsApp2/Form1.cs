@@ -26,5 +26,15 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void btnEnviarCodigo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
