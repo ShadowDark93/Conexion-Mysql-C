@@ -77,5 +77,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\conexionbd\conexionbd.csproj">
+      <Project>{5625edbb-ab45-47f0-8fd4-e6a007e9db86}</Project>
+      <Name>conexionbd</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
