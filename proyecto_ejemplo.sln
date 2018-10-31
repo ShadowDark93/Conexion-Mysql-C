@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto_ejemplo", "proyecto_ejemplo\proyecto_ejemplo.csproj", "{1E9EB10D-48AF-4969-AD85-DABA11708539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGGIN", "proyecto_ejemplo\LOGGIN.csproj", "{1E9EB10D-48AF-4969-AD85-DABA11708539}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "facturacion", "facturacion\facturacion.csproj", "{BD1505A1-8888-4045-B82F-B766DC796842}"
 EndProject
