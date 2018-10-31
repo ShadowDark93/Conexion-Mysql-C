@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventario", "inventario\in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conexionbd", "conexionbd\conexionbd.csproj", "{5625EDBB-AB45-47F0-8FD4-E6A007E9DB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{CAEE9E5F-5DDB-4938-B8F1-0638AD3B08EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moteles", "WindowsFormsApp1\Moteles.csproj", "{CAEE9E5F-5DDB-4938-B8F1-0638AD3B08EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usuarios", "WindowsFormsApp2\Usuarios.csproj", "{7B6D9206-7C00-4675-829E-5239B0917043}"
 EndProject
