@@ -44,10 +44,7 @@ namespace WindowsFormsApp2
 
         private void textBox6_Leave(object sender, EventArgs e)
         {
-            if (txtContraseña.Text <> txtConfirmacion.Text)
-            {
-
-            }
+     
         }
     }
 }

@@ -55,7 +55,7 @@ namespace WindowsFormsApp2
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             operaciones_u insertar = new operaciones_u();
-            insertar.agregar_persona(txtDocumento.Text, txtNombres.Text, txtApellidos, cmbGenero.Text, fecha_na.Text);
+            insertar.agregar_persona(Convert.ToString(value: txtDocumento.Text), txtNombres.Text, txtApellidos, cmbGenero.Text, fecha_na.Text);
             
             this.Hide();
             frmRegistroUsuario frmru = new frmRegistroUsuario();

@@ -26,17 +26,17 @@ namespace WindowsFormsApp2
 
         }
 
-        internal void agregar_persona(string text1, string text2, TextBox txtApellidos, string text3, string text4)
-        {
-            throw new NotImplementedException();
-        }
-
         public void actualizar_persona(int cedula, string nombre, string apellido, char genero, string fecha_nacimiento) {
             String sql;
             sql = "UPDATE persona SET NOMBRE_PERSONA  = '" + nombre + "',APELLIDO_PERSONA = '" + apellido + "',GENERO'" + genero + "',FECHA_NACIMIENTO'" + fecha_nacimiento + "'";
             sql = sql + "WHERE ID_PERSONA = '" + cedula + "'";
             conexionbd.datos consulta = new conexionbd.datos();
             consulta.Ejecutar(sql);
+        }
+
+        internal void agregar_persona(string v, string text1, TextBox txtApellidos, string text2, string text3)
+        {
+            throw new NotImplementedException();
         }
 
         public void elminar_persona(int cedula) {
