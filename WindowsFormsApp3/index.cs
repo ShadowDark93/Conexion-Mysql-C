@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp3
 {
-    public partial class MDIParent1 : Form
+    public partial class index : Form
     {
         private int childFormNumber = 0;
 
-        public MDIParent1()
+        public index()
         {
             InitializeComponent();
         }
