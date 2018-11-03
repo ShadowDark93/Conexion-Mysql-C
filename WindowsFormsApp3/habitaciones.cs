@@ -12,11 +12,12 @@ using administracion;
 
 
 
+
 namespace WindowsFormsApp3
 {
-    public partial class Index : Form
+    public partial class habitaciones : Form
     {
-        public Index()
+        public habitaciones()
         {
             InitializeComponent();
         }

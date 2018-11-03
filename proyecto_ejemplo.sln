@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "conexionbd", "conexionbd\conexionbd.csproj", "{5625EDBB-AB45-47F0-8FD4-E6A007E9DB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "implementacion", "WindowsFormsApp3\implementacion.csproj", "{6BA0D609-04ED-4FF3-9F73-CB5AE7D2B606}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vistas", "WindowsFormsApp3\vistas.csproj", "{6BA0D609-04ED-4FF3-9F73-CB5AE7D2B606}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "administracion", "administracion\administracion.csproj", "{7452D791-756D-4826-8D0B-5D2C926654CD}"
 EndProject

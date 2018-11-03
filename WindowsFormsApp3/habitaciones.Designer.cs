@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp3
 {
-    partial class Index
+    partial class habitaciones
     {
         /// <summary>
         /// Variable del diseñador necesaria.
