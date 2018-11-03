@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="operaciones_habitacion.cs" />
+    <Compile Include="Operaciones_Motel.cs" />
+    <Compile Include="operaciones_persona.cs" />
+    <Compile Include="operaciones_usuario.cs" />
     <Compile Include="personas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
